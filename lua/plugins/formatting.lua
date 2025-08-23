@@ -13,6 +13,8 @@ return {
         yaml = { "prettier" },
         markdown = { "prettier" },
         graphql = { "prettier" },
+        c = { "clang_format" },
+        cpp = { "clang_format" },
       },
       format_on_save = {
         lsp_fallback = true,
